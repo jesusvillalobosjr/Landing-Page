@@ -1,3 +1,8 @@
+:root{
+    --dark-blue: #1f2937;
+    --button-color: #3882F6;
+}
+
 .intro .intro-image{
     height: 200px;
     width: 300px;
@@ -14,7 +19,7 @@ body,html{
     margin: 0;
 }
 
-/*Logo and Navbar*/
+/* Logo and Navbar */
 
 header{
     background-color: #1f2937;
@@ -42,4 +47,10 @@ header .logo{
 .navbar ul li a{
     text-decoration: none;
     color: #e5e7eb;
+}
+
+/* Introduction */
+
+.intro{
+    background-color: var(--dark-blue);
 }
