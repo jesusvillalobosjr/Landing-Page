@@ -1,0 +1,11 @@
+.intro .intro-image{
+    height: 200px;
+    width: 300px;
+    object-fit: fill;
+}
+
+.random-info-container .images-and-captions .image-and-caption .random-info-image{
+    height: 100px;
+    width: 100px;
+    object-fit: fill;
+}
