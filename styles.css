@@ -1,6 +1,7 @@
 :root{
     --dark-blue: #1f2937;
     --button-color: #3882F6;
+    --secondary-text: #e5e7eb;
 }
 
 .intro .intro-image{
@@ -46,11 +47,42 @@ header .logo{
 
 .navbar ul li a{
     text-decoration: none;
-    color: #e5e7eb;
+    color: var(--secondary-text);
 }
 
 /* Introduction */
 
 .intro{
     background-color: var(--dark-blue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 65px 0;
+}
+
+.intro .intro-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 450px;
+}
+
+.intro .intro-info .info-title{
+    margin: 0;
+    font-size: 48px;
+}
+
+.intro .intro-info .info-content{
+    font-size: 18px;
+}
+
+.intro .intro-info .info-sign-up{
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 3px;
+    color: var(--secondary-text);
+    padding: 5px 20px;
+    font-size: 16px;
 }
