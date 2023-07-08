@@ -213,7 +213,12 @@ footer .copyright{
 }
 
 @media (max-width : 900px){
-    /* Navbar */
+    /* Header */
+    header{
+        justify-content: space-between;
+        padding: 0 25px;
+    }
+
     .navbar ul{
         font-size: 14px;
         gap: 20px;
@@ -272,10 +277,6 @@ footer .copyright{
     }
 
     /* Pop Up */
-    .sign-up-pop-up-container{
-
-    }
-
     .sign-up-pop-up{
         padding: 15px 10px;
         justify-content: space-around;
@@ -294,6 +295,31 @@ footer .copyright{
     .sign-up-pop-up .pop-up-title-and-description .pop-up-description{
         font-size: 12px;
     }
+}
+
+@media (max-width: 700px){
+    /* Header */
+    header .logo{
+        font-size: 20px;
+    }
+
+    header .navbar li{
+        font-size: 12px;
+    }
+
+    /* Introduction */
+    .intro .intro-info .info-title{
+        font-size: 30px;
+    }
+
+    .intro .intro-info .info-content{
+        font-size: 11px;
+    }
+
+    .intro .intro-image{
+        height: 150px;
+    }
+
 }
 
 /* https://unsplash.com/photos/fIq0tET6llw 
