@@ -6,7 +6,8 @@
 
 .intro .intro-image{
     height: 200px;
-    width: 300px;
+    /* width: 300px; */
+    flex-basis: 300px;
     object-fit: fill;
 }
 
@@ -58,6 +59,7 @@ header .logo{
     color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     padding: 65px 0;
 }
@@ -131,8 +133,10 @@ header .logo{
 .quote-and-author{
     display: flex;
     flex-direction: column;
-    width: 700px;
-    padding: 100px 0;
+    flex-basis: 700px;
+    height: 300px;
+    justify-content: center;
+    padding: 0px 30px;
 }
 
 .quote{
@@ -163,7 +167,7 @@ header .logo{
 .sign-up-pop-up{
     background-color: var(--button-color);
     display: flex;
-    width: 650px;
+    flex-basis: 650px;
     padding: 25px 50px;
     justify-content: space-around;
     align-items: center;
@@ -206,6 +210,90 @@ footer .copyright{
     justify-content: center;
     align-items: center;
     padding: 25px 0;
+}
+
+@media (max-width : 900px){
+    /* Navbar */
+    .navbar ul{
+        font-size: 14px;
+        gap: 20px;
+    }
+
+    /* Introduction */
+
+    .intro{
+        padding: 25px 25px;
+    }
+
+    .intro .intro-info .info-title{
+        font-size: 40px;
+    }
+
+    .intro .intro-info .info-content{
+        font-size: 12px;
+    }
+
+    .intro .intro-info .info-sign-up{
+        padding: 2px 10px;
+    }
+
+    .intro .intro-info{
+        flex-shrink: 1;
+    }
+
+    .intro .intro-image{
+         flex-shrink: 1;
+         min-width: 200px;
+    }
+
+    /* Random Information */
+
+    .random-info-container h1{
+        font-size: 25px;
+    }
+
+    .random-info-container .images-and-captions{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Quote */
+    .quote-and-author{
+        flex-shrink: 1;
+        gap: 10px;
+    }
+
+    .quote-and-author .quote{
+        font-size: 30px;
+    }
+
+    .quote-and-author .author{
+        font-size: 16px;
+    }
+
+    /* Pop Up */
+    .sign-up-pop-up-container{
+
+    }
+
+    .sign-up-pop-up{
+        padding: 15px 10px;
+        justify-content: space-around;
+        min-width: 450px;
+    }
+
+    .sign-up-pop-up .pop-up-button{
+        width: 75px;
+        height: 20px;
+    }
+
+    .sign-up-pop-up .pop-up-title-and-description .pop-up-title{
+        font-size: 14px;
+    }
+
+    .sign-up-pop-up .pop-up-title-and-description .pop-up-description{
+        font-size: 12px;
+    }
 }
 
 /* https://unsplash.com/photos/fIq0tET6llw 
