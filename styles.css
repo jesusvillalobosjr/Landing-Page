@@ -320,6 +320,24 @@ footer .copyright{
         height: 150px;
     }
 
+    /* Random Information */
+    .random-info-container .images-and-captions .image-and-caption .random-info-image {
+        height: 100px;
+        width: 100px;
+    }
+
+    .random-info-container .images-and-captions .image-and-caption .info-image-caption{
+        font-size: 12px;
+    }
+
+    /* Quote */
+    .quote-and-author .quote{
+        font-size: 20px;
+    }
+
+    .quote-and-author .author{
+        font-size: 14px;
+    }
 }
 
 /* https://unsplash.com/photos/fIq0tET6llw 
