@@ -193,5 +193,20 @@ header .logo{
     color: white;
 }
 
+/* Footer */
+
+footer{
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+footer .copyright{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
 /* https://unsplash.com/photos/fIq0tET6llw 
  https://unsplash.com/photos/sf_1ZDA1YFw */
