@@ -117,5 +117,34 @@ header .logo{
     text-align: center;
 }
 
+.quote-container{
+    display: flex;
+    background-color: var(--secondary-text);
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-and-author{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 100px 0;
+}
+
+.quote{
+    margin: 0;
+    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    margin: 0;
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 20px;
+}
+
 /* https://unsplash.com/photos/fIq0tET6llw 
  https://unsplash.com/photos/sf_1ZDA1YFw */
