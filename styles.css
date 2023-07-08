@@ -11,9 +11,10 @@
 }
 
 .random-info-container .images-and-captions .image-and-caption .random-info-image{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     object-fit: fill;
+    border-radius: 25px;
 }
 
 body,html{
@@ -86,3 +87,35 @@ header .logo{
     padding: 5px 20px;
     font-size: 16px;
 }
+
+.random-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0 55px 0;
+    gap: 30px;
+}
+
+.random-info-container h1{
+    margin: 0;
+}
+
+.images-and-captions{
+    display: flex;
+    gap: 50px;
+}
+
+.image-and-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-and-caption p{
+    width: 150px;
+    text-align: center;
+}
+
+/* https://unsplash.com/photos/fIq0tET6llw 
+ https://unsplash.com/photos/sf_1ZDA1YFw */
