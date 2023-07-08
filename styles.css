@@ -88,6 +88,8 @@ header .logo{
     font-size: 16px;
 }
 
+/* Random Information */
+
 .random-info-container{
     display: flex;
     flex-direction: column;
@@ -117,6 +119,8 @@ header .logo{
     text-align: center;
 }
 
+/* Quote */
+
 .quote-container{
     display: flex;
     background-color: var(--secondary-text);
@@ -144,6 +148,49 @@ header .logo{
     align-self: flex-end;
     font-weight: 900;
     font-size: 20px;
+}
+
+/* Sign up pop up */
+
+.sign-up-pop-up-container{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sign-up-pop-up{
+    background-color: var(--button-color);
+    display: flex;
+    width: 650px;
+    padding: 25px 50px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sign-up-pop-up .pop-up-title-and-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.pop-up-title-and-description .pop-up-title{
+    margin: 0;
+}
+
+.pop-up-title-and-description .pop-up-description{
+    margin: 0;
+}
+
+.sign-up-pop-up-container .pop-up-button{
+    display: inline-block;
+    height: 25px;
+    width: 100px;
+    background-color: var(--button-color);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
 }
 
 /* https://unsplash.com/photos/fIq0tET6llw 
